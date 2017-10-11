@@ -1,6 +1,6 @@
 # Common Overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/great-common/overlay
-DEVICE_PATH := device/samsung/dream-common
+DEVICE_PATH := device/samsung/great-common
 
 # Ramdisk
 PRODUCT_PACKAGES += \

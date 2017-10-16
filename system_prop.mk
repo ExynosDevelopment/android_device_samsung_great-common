@@ -81,10 +81,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # ResurrectionRemix
 PRODUCT_PROPERTY_OVERRIDES += \
-	debug.hwc.force_gpu=0 \
-	debug.hwc.max_hw_overlays=1 \
+	debug.composition.type=dyn \
+ 	ro.opengles.version=196610 \
+	video.accelerate.hw=1 \
+	debug.egl.profiler=1 \
+	ro.sf.lcd_density=540 \
+	debug.hwc.force_gpu=0
+	debug.hwc.max_hw_overlays=1
 	debug.sf.hw=1 \
-	persist.sys.ui.hw=true \
+	persist.sys.ui.hw=1 \
 	debug.egl.hw=1
 
 # Surface

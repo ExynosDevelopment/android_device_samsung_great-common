@@ -78,6 +78,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # WIFI
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.interface=wlan0
+	net.tethering.noprovisioning=true
 
 # ResurrectionRemix
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -4,10 +4,20 @@ DEVICE_PATH := device/samsung/great-common
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-	fstab.samsungexynos8895 \
-	init.samsung.rc \
-	init.samsungexynos8895.rc \
-	ueventd.samsungexynos8895.rc
+     fstab.samsungexynos8895 \
+     init.baseband.rc \
+     init.bluetooth.rc \
+     init.gps.rc \
+     init.power.rc \
+     init.rilchip.rc \
+     init.rilcommon.rc \
+     init.samsung.rc \
+     init.samsungexynos8895.rc \
+     init.samsungexynos8895.usb.rc \
+     init.usb.configfs.rc \
+     init.wifi.rc \
+     ueventd.samsungexynos8895.rc \
+     vold.rc
 
 # Graphics
 # This device is xhdpi.  However the platform doesn't
